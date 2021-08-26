@@ -1,0 +1,76 @@
+/* .banner-images {
+    height: 300px; 
+     background:url("https://media.istockphoto.com/photos/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-picture-id1093110112?k=6&m=1093110112&s=612x612&w=0&h=uBH7Rj-Ew_ixjunRrD_U7alq2ZUPJ_5XgMpe9xO52QQ="),
+      linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);;
+     background-size:cover;
+       background-position:center;
+     background-blend-mode:screen;
+   }
+   
+  
+   .start {
+     display:flex;
+   
+         justify-content: space-around;
+       align-items: center;
+   
+   } */
+
+   body {
+       background: chartreuse;
+       display: flex;
+       justify-content: space-evenly;
+margin: 150px;
+
+     
+
+   }
+
+   .card-layout{
+       display: flex;
+       justify-content: space-between;
+       background:linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12) ;
+       border-radius: 10px;
+       background-size: cover;
+       background-position: center;
+      
+   }
+
+  img {
+  border-radius: 0px 10px 10px 0px;
+  background: crimson;
+  background-blend-mode: luminosity;
+  }
+
+   p{
+       text-align: center;
+       
+   }
+
+   .outline{
+       display: flex;
+       justify-content: center;
+       background:  linear-gradient(to right top, #0b0537, #341a4d, #5c2e63, #854477, #ae5c8a);
+     padding: 100px;
+     
+   }
+
+   .list-item
+   {
+display: flex;
+list-style: none;
+justify-content: space-around;
+   }
+
+   ul{
+       list-style: none;
+   }
+
+   .text-content
+   {
+text-align: center;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+   }
